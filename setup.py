@@ -1,14 +1,14 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 #created for m09
 
 setup(
 
-    name='Setup_for_m09',
+    name='Setup_for_booklover',
 
     version='0.1',
 
-    description='First created package',
+    description='First created package. Used for hw09.',
 
     url='https://github.com/Lcocks/DS5100-m09HW.git',
 
@@ -18,7 +18,7 @@ setup(
 
     license='MIT',
 
-    packages=['demo']
+    packages=find_packages()
 
 )
 
